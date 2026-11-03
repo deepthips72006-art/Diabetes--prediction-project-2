@@ -1,0 +1,11 @@
+streamlit
+pandas
+joblib
+scikit-learn
+
+from google.colab import files
+
+files.download("app.py")
+files.download("requirements.txt")
+files.download("logistic-model.pkl")
+files.download("scaler.pkl")
